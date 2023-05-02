@@ -16,13 +16,13 @@ export default function HelpSection({ className = '' }) {
         </h2>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
           <div className="rounded-lg bg-zinc-100 p-6 dark:bg-zinc-900">
-            <img src="/static/landing-page/calendar.svg" alt="Book a demo" width="48" height="48" />
+            <img src="/static/landing-page/discussions.svg" alt="Book a demo" width="48" height="48" />
             <h3 className="my-3">Tham gia diễn đàn</h3>
             <p className="text-zinc-600 dark:text-zinc-400">
               Tham gia diễn đàn cộng đồng trên GitHub
             </p>
             <Link
-              href="#"
+              href="https://github.com/Khoa-Hoc-Du-Lieu/docs/discussions"
               className="text-primary dark:text-primary-100"
             >
               Đến diễn đàn &rarr;

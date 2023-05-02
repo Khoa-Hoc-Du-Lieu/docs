@@ -13,7 +13,7 @@ export default function CallToAction(props) {
         </p>
       </div>
       <div>
-        <a href={props.link} className="call-to-action-button">
+        <a href={props.link} target="_blank" className="call-to-action-button">
         {props.button_title} <ion-icon name="arrow-forward-outline" />
         </a>
       </div>
