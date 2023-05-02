@@ -240,67 +240,83 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'Dyte Docs',
+          alt: 'Khoahocdulieu Logo',
           height: '36px',
         },
         links: [
           {
-            title: 'Product',
+            title: 'Khoá học',
             items: [
               {
-                label: 'Demo',
-                href: 'https://app.dyte.io',
+                label: 'Danh sách',
+                to: 'khoa-hoc/danh-sach',
               },
               {
-                label: 'Developer Portal',
-                href: 'https://dev.dyte.io',
+                label: 'Nền tảng',
+                to: 'khoa-hoc/danh-sach#nền-tảng',
               },
               {
-                label: 'Pricing',
-                href: 'https://dyte.io/#pricing',
+                label: 'Nhập môn',
+                to: 'khoa-hoc/danh-sach#nhập-môn',
+              },
+              {
+                label: 'Trung bình',
+                to: 'khoa-hoc/danh-sach#trung-bình',
               },
             ],
           },
           {
-            title: 'Company',
+            title: 'Tài nguyên',
             items: [
               {
-                label: 'About Us',
-                href: 'https://dyte.io',
+                label: 'Site health',
+                to: 'site-health',
               },
               {
-                label: 'Join Us',
-                href: 'https://dyte.freshteam.com/jobs',
+                label: 'Liên hệ',
+                to: 'lien-he',
               },
               {
-                label: 'Privacy Policy',
-                href: 'https://dyte.io/privacy-policy',
-              },
-              {
-                label: 'Contact Us',
-                href: 'https://dyte.io/contact',
-              },
-            ],
-          },
-          {
-            title: 'Resources',
-            items: [
-              {
-                label: 'Documentation',
-                href: '/',
+                label: 'FAQs',
+                to: '/faq',
               },
               {
                 label: 'Blog',
-                href: 'https://dyte.io/blog',
+                to: 'blog',
               },
               {
-                label: 'Community',
+                label: 'Data learner',
+                href: 'https://www.datalearner.org/',
+              },
+            ],
+          },
+          {
+            title: 'Cộng đồng',
+            items: [
+              {
+                label: 'Diễn đàn',
+                href: 'https://github.com/Khoa-Hoc-Du-Lieu/docs/discussions',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/khoahocdulieu.org',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@khoahocdulieu',
+              },
+              {
+                label: 'Discord',
                 href: 'https://community.dyte.io',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/khoahocdulieu',
               },
             ],
           },
         ],
-        copyright: 'Copyright © Dyte since 2020. All rights reserved.',
+        copyright: 'Copyright &copy; Khoahocdulieu since 2021. All rights reserved. Built with <a href="https://docusaurus.io" target="_blank">Docusarus</a>. Using templates from <a href="https://docs.dyte.io/" target="_blank">Dyte</a>, and <a href="https://ionicframework.com/docs" target="_blank">Ionic</a>',
       },
       prism: {
         theme: code_themes.light,
