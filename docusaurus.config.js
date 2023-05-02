@@ -63,7 +63,7 @@ const docs = [
 /** @type {import('@docusaurus/plugin-content-docs').Options} */
 const defaultSettings = {
   breadcrumbs: false,
-  editUrl: 'https://github.com/dyte-in/docs/tree/main/',
+  editUrl: 'https://github.com/Khoa-Hoc-Du-Lieu/docs/tree/main/',
   showLastUpdateTime: true,
   remarkPlugins: [
     [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
@@ -110,7 +110,6 @@ const config = {
 
   trailingSlash: false,
   themes: ['@docusaurus/theme-live-codeblock'],
-  clientModules: [require.resolve('./src/client/define-ui-kit.js')],
 
   presets: [
     [
@@ -143,7 +142,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: '/img/dyte-docs-card.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -157,7 +155,7 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'Dyte Docs',
+          alt: 'Khoahocdulieu logo',
           height: '40px',
           width: '58px',
         },
