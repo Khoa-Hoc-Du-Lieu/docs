@@ -95,8 +95,12 @@ const isDev = process.env.NODE_ENV === 'development';
 const { webpackPlugin } = require('./plugins/webpack-plugin.cjs');
 const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
 const docs_plugins = docs.map((doc) => create_doc_plugin(doc));
+const search_plugins = [require.resolve('docusaurus-lunr-search'), {
+  languages: ['en', 'vi'] // language codes
+}];
 
-const plugins = [tailwindPlugin, ...docs_plugins, webpackPlugin];
+const plugins = [tailwindPlugin, ...docs_plugins, search_plugins, webpackPlugin];
+
 
 const fs = require('fs');
 const sdksHTML = fs.readFileSync('./src/snippets/sdks.html', 'utf-8');
@@ -340,13 +344,13 @@ const config = {
           },
         ],
       },
-      algolia: {
-        appId: 'HL0HSV62RK',
-        apiKey: '72ebf02146698733b7114c7b36da0945',
-        indexName: 'docs',
-        contextualSearch: true,
-        searchParameters: {},
-      },
+      // algolia: {
+      //   appId: 'HL0HSV62RK',
+      //   apiKey: '72ebf02146698733b7114c7b36da0945',
+      //   indexName: 'docs',
+      //   contextualSearch: true,
+      //   searchParameters: {},
+      // },
     }),
 
   webpack: {
@@ -366,6 +370,7 @@ const config = {
       },
     }),
   },
+
 };
 
 module.exports = config;
