@@ -3,8 +3,8 @@ import Link from '@docusaurus/Link';
 import ThemedImage from '@theme/ThemedImage';
 import clsx from 'clsx';
 
-import { Linkedin, Twitter } from 'react-feather';
-import { DiscordIcon } from '@site/src/icons';
+import { GitHub } from 'react-feather';
+import { DiscordIcon, TelegramIcon } from '@site/src/icons';
 
 export default function HomeFooter({ className }) {
   return (
@@ -23,21 +23,25 @@ export default function HomeFooter({ className }) {
           />
         </div>
         <div className="flex items-center gap-3">
-          <Link href="https://community.dyte.io" aria-label="Discord community">
+          <Link href="https://discord.gg/QnkvBEJ3kn" aria-label="Discord community">
             <DiscordIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
           </Link>
-          <Link href="https://twitter.com/dyte_io" aria-label="Twitter">
-            <Twitter className="h-6 w-6 text-zinc-400 hover:text-primary" />
+          <Link href="https://github.com/Khoa-Hoc-Du-Lieu" aria-label="GitHub">
+            <GitHub className="h-6 w-6 text-zinc-400 hover:text-primary" />
           </Link>
           <Link
-            href="https://linkedin.com/company/dyteio"
-            aria-label="LinkedIn"
+            href="https://t.me/khoahocdulieu"
+            aria-label="Telegram"
           >
-            <Linkedin className="h-6 w-6 text-zinc-400 hover:text-primary" />
+            <TelegramIcon className="h-6 w-6 text-zinc-400 hover:text-primary" />
           </Link>
         </div>
         <div className="flex-1 text-zinc-400 lg:text-right">
-          Copyright &copy; Dyte since 2020. All rights reserved.
+          Copyright &copy; Khoahocdulieu since 2021. 
+          All rights reserved. 
+          Built with <Link href="https://docusaurus.io" aria-label="Docusarus">Docusarus</Link>. 
+          Using templates from <Link href="https://docs.dyte.io/" aria-label="Dyte">Dyte</Link>, 
+          and <Link href="https://ionicframework.com/docs" aria-label="Ionic">Ionic</Link>
         </div>
       </div>
     </footer>
