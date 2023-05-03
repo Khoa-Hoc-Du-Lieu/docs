@@ -215,7 +215,7 @@ const config = {
           //   position: 'right',
           // },
           {
-            label: 'Cộng Đồng',
+            label: 'Cộng đồng',
             position: 'right',
             type: 'dropdown',
             className: 'dyte-dropdown resources-dropdown',

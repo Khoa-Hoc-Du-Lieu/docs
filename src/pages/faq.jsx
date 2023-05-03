@@ -169,7 +169,7 @@ export default function FAQPage() {
             <input
               type="text"
               className="-ml-5 h-10 flex-1 rounded-md border border-solid border-zinc-200 bg-white px-3 pl-8 text-sm text-zinc-700 dark:border-zinc-800 dark:bg-secondary-1000 dark:text-zinc-200"
-              placeholder="Search your query...(sdk, api, write code)"
+              placeholder="Gõ thắc mắc bạn cần trả lời...(sdk, api, write code)"
               value={query}
               onInput={(e) => setQuery(e.currentTarget.value)}
             />
@@ -182,11 +182,11 @@ export default function FAQPage() {
           {query.trim() !== '' ? (
             filteredFAQs.length === 0 ? (
               <div className="mb-12 text-2xl font-semibold">
-                😢 Sorry, no results matched your search terms
+                😢 Xin lỗi, không có kết quả phù hợp với tìm kiếm của bạn
               </div>
             ) : (
               <div className="mb-12 text-xl font-semibold">
-                🙌 Showing {filteredFAQs.length} results for &quot;{query}&quot;
+                🙌 Tìm thấy {filteredFAQs.length} kết quả cho &quot;{query}&quot;
               </div>
             )
           ) : (
