@@ -95,9 +95,7 @@ const isDev = process.env.NODE_ENV === 'development';
 const { webpackPlugin } = require('./plugins/webpack-plugin.cjs');
 const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
 const docs_plugins = docs.map((doc) => create_doc_plugin(doc));
-const search_plugins = [require.resolve('docusaurus-lunr-search'), {
-  languages: ['en', 'vi'] // language codes
-}];
+const search_plugins = require.resolve('docusaurus-lunr-search');
 
 const plugins = [tailwindPlugin, ...docs_plugins, search_plugins, webpackPlugin];
 
