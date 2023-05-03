@@ -1,0 +1,53 @@
+---
+title: 1.5. Thiết lập Google Colab
+sidebar_position: 6
+---
+
+## 1.5.1. Tạo một file Google Colab
+
+Truy cập: https://colab.research.google.com/
+
+Đăng nhập bằng tài khoản google:
+
+<div className="flex justify-center">
+<img alt="colab_signin" src="/img/python-cho-nguoi-moi-bat-dau/chuong-1/colab_signin.png"/>
+</div>
+
+Nhấn File > New notebook để tạo một file Google Colab mới:
+
+<div className="flex justify-center mt-15">
+<img alt="colab_new_notebook" src="/img/python-cho-nguoi-moi-bat-dau/chuong-1/colab_new_notebook.png"/>
+</div>
+
+## 1.5.2. Những mục cần chú ý
+
+<div className="flex justify-center">
+<img alt="colab_noted" src="/img/python-cho-nguoi-moi-bat-dau/chuong-1/colab_noted.png"/>
+</div>
+<br/>
+
+- Runtime: Có các lệnh chạy cell, trong đó "Run before", "Run after"  là chạy tất cả các cell ở trước và ở sau cell đang chọn, "Run all" là chạy toàn bộ các cell từ cell đầu tiên đến cell cuối cùng, ba lệnh này thường dùng sau khi "Restart runtime". Thông thường sau khi viết xong một file notebook, cần chọn "Restart runtime" và chạy lại cell, vì đặc trưng của file notebook nên người dùng có thể chạy các cell không theo thứ tự, xoá một cell nhưng biến vẫn còn được nhớ,...
+- Table of contents: Xem file notebook dễ dàng với mục lục, được phân cấp theo heading của text cell (xem bài [Soạn thảo text cell trong Google Colab](/khoa-hoc/python-cho-nguoi-moi-bat-dau/chuong-1-lam-quen-voi-google-colab/1-7-soan-thao-text-cell-trong-google-colab))
+- Files: Khi cần tương tác với các file ngoài notebook ta cần upload file
+(hoặc mount google drive, sử dụng gdown, github, GCS,...),
+và các file đều được được lưu trữ ở mục Files này, 
+mặc định khi ấn vào biểu tượng folder sẽ trỏ đến thư mục content, 
+gõ lệnh !pwd trong code cell cũng sẽ cho kết quả /content, 
+nên ở mức độ cơ bản, ta chỉ cần: giữ nguyên thư mục mặc định, upload file lên thư mục content này, 
+đọc ghi file trong notebook sử dụng "/content/<tên file/folder>"  hoặc "./<tên file/folder>" hoặc "<tên file/folder>" 
+
+<div className="flex justify-center mt-15">
+<img alt="colab_files" src="/img/python-cho-nguoi-moi-bat-dau/chuong-1/colab_files.png"/>
+</div>
+
+## 1.5.3. Thiết lập run time
+
+Chọn Runtime > Change runtime type (hoặc Edit > Notebook settings):
+
+Phần "Hardware accelerator" có thể chọn None hoặc GPU, TPU tuỳ nhu cầu, đối với khoá học này, các bạn có thể giữ nguyên mặc định là None.
+
+## 1.5.4. Chọn giao diện
+
+Chọn Tools > Settings, có thể chỉnh giao diện trong Site > Theme.
+
+

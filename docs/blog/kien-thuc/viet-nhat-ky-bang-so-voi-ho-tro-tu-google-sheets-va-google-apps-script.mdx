@@ -134,7 +134,7 @@ Chọn Extensions:
 
 file code.gs: 
 
-```js
+```jsx showLineNumbers
 // NguyenKhang.me
 function onOpen() {
   var spreadsheet = SpreadsheetApp.getActive();
@@ -182,7 +182,7 @@ do đó nên để cột ở ngoài cùng bên phải, để tránh conflict v�
 Nếu bạn thêm một cột mới, hoặc xóa một cột thì cần F5 để đoạn code tính lại vị trí của cột "Flag". 
 Nếu không muốn F5, ta có thể thay đoạn code trên thành:
 
-```js
+```jsx {3-6} showLineNumbers
 function onOpen() {
   var spreadsheet = SpreadsheetApp.getActive();
   var menuItems = [

@@ -40,7 +40,7 @@ https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf và http://www.mali
 
 Chèn ảnh tôi hay dùng \textwidth kết hợp với keepaspectratio, nếu ảnh lớn không vừa thì thêm số tỉ lệ trước \textwidth:
 
-```LaTeX
+```latex
 \begin{figure}[h]
    \centering
    \includegraphics[width=0.9\textwidth,keepaspectratio]{images/hello.png}
@@ -53,7 +53,7 @@ Chèn ảnh tôi hay dùng \textwidth kết hợp với keepaspectratio, nếu �
 
 Công thức ngoài equation tôi hay dùng gather và aligned:
 
-```LaTeX
+```latex
 \begin{gather} 
    1 + 1 = 2 \\
    1 + 2 = 3
@@ -62,7 +62,7 @@ Công thức ngoài equation tôi hay dùng gather và aligned:
 
 và 
 
-```LaTeX
+```latex
 \begin{aligned} 
    1 + 1 &= 2\\
    1 + 2 &= 3 
@@ -77,7 +77,7 @@ Một ví dụ:
 
 Import:
 
-```LaTeX
+```latex
 \usepackage{multirow}
 \usepackage{longtable}
 \usepackage{makecell}
@@ -89,7 +89,7 @@ Import:
 
 Code:
 
-```LaTeX
+```latex
 \begin{center}
     \begin{longtable}{  m{9em}  m{9em} m{3em} m{10em}  }
       \addlinespace
@@ -127,7 +127,7 @@ Kết quả:
 
 Nếu bạn thích bảng có kẻ cột có thể thêm | vào lệnh: 
 
-```LaTeX
+```latex
 \begin{longtable}{ m{9em} | m{9em} | m{3em} | m{10em} }
 ```
 

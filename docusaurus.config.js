@@ -331,6 +331,7 @@ const config = {
           'java',
           'swift',
           'objectivec',
+          'latex',
         ],
         magicComments: [
           {
