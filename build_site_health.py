@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     build_date = get_build_date()
 
-    website_monitoring_dashboard = 'https://statuspage.freshping.io/66131-Datalearnerorg'
+    website_monitoring_dashboard = 'https://statuspage.freshping.io/66228-Khoahocdulieuorg'
 
     with open(file_path,'w') as fp:
         fp.write(
