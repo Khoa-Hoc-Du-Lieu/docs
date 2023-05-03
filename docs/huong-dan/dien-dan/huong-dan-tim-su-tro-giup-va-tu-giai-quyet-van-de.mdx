@@ -1,0 +1,114 @@
+---
+title: Cách tìm sự trợ giúp và tự giải quyết vấn đề
+sidebar_position: 1
+---
+
+<head>
+  <title>Cách tìm sự trợ giúp và tự giải quyết vấn đề | Khoahocdulieu.org</title>
+  <meta
+    name="description"
+    content="Danh sách các khoá học tại Khoahocdulieu.org."
+  />
+  <style>{`
+    :root {
+      --doc-item-container-width: 60rem;
+    }
+  `}</style>
+</head>
+
+<intro-end />
+
+import CallToAction from '@site/src/components/CallToAction';
+
+<CallToAction title="Diễn đàn" description="Diễn đàn cộng đồng Khoahocdulieu.org" link="https://github.com/Khoa-Hoc-Du-Lieu/docs/discussions" button_title="truy cập"/>
+
+<br/>
+
+Tiêu đề: Làm sao để tạo một hằng số trong Python
+
+Nội dung:
+
+Các bạn học thân mến,
+
+Làm sao để mình có thể tạo được một hằng số trong Python nhỉ? Ở trong C mình dùng lệnh này, và mình không tìm thấy cú pháp tương tự trong Python:
+
+const int a = 9;
+
+---
+
+Các bạn đọc thân mến,
+
+Trên đây là ví dụ cho một câu hỏi, đừng ngại ngần hỏi khi bạn không hiểu, 
+và hãy cùng xem qua một vài gợi ý của Khoahocdulieu.org nhé:
+
+## Trước khi đặt câu hỏi
+
+Thông thường, câu trả lời nhanh nhất là câu trả lời bạn có thể tự tìm kiếm cho bản thân mình. 
+Dưới đây là một vài vấn đề ta thường gặp khi lập trình và cách thấu hiểu các vấn đề đó để tìm được cách giải quyết cho nó.
+
+Một vài nơi chúng tôi gợi ý để bạn có thể tìm kiếm câu trả lời: 
+tài liệu chính thức, tìm kiếm trên Google, và hỏi trực tiếp trên [diễn đàn Khoahocdulieu.org](https://github.com/Khoa-Hoc-Du-Lieu/docs/discussions)
+
+**Đầu tiên, nếu vấn đề bạn cần hỏi là lỗi khi thực thi**:
+
+- Việc xem kỹ lỗi được in ra màn hình có thể giúp bạn hiểu được lỗi ngay, 
+ví dụ như lỗi có thể chỉ ra chỗ bạn ghi sai cú pháp, hay truyền tham số sai cho hàm, 
+từ đó biết được cần đọc lại tài liệu nào để sửa lỗi đó.
+- Tài liệu đầu tiên ta nên tham khảo là tài liệu hướng dẫn chính thức (document hoặc manual), 
+với IPython, bạn có thể gõ `?lệnh` hoặc `??lệnh`.
+- Nếu bạn không tìm được câu trả lời từ tài liệu, 
+Google là nơi tiếp theo để tìm kiếm câu trả lời cho bản thân, 
+nếu gặp phải lỗi, bạn có thể tìm trên Google bằng **chính xác** lỗi in ra màn hình 
+(sao chép lỗi và dán lại lên Google), rất có thể câu hỏi của bạn đã được trả lời ở đâu đó rồi.
+
+**Nếu bạn gặp phải lỗi khi output không như mong muốn**:
+
+- Với Jupyter Notebook/Colab, bạn có thể tạo một cell mới để thử nghiệm, 
+ví dụ sử dụng các giá trị mẫu, khác nhau, để xem sự thay đổi của output từ đó thấy được chỗ cần điều chỉnh.
+- So sánh sự khác nhau giữa output thực máy trả về và output bạn mong muốn, 
+xem xét tại sao lại có sự khác nhau đó, để tìm ra được lý do tạo ra sự khác biệt không mong muốn.
+
+Nếu bạn cần hỏi về một thắc mắc, như ở ví dụ trên:
+
+    Bạn có thể trực tiếp thử nghiệm để xem thắc mắc của mình có đúng không, có thể tự trả lời được không,...
+    Tìm kiếm trong tài liệu chính thức hoặc Google, có thể bạn sẽ cần sử dụng "" để tìm kiếm chính xác những từ bạn cần.
+
+Một cách giải quyết vấn đề là “[Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging)” - 
+tự hỏi tự trả lời, tự giải thích một cách cụ thể vấn đề bạn đang gặp, 
+mô tả từng dòng một những gì dòng lệnh được cho là phải làm, 
+và quan sát điều nó thực sự làm, trong quá trình giải thích đó, 
+có thể bạn sẽ tự tìm đến câu trả bằng chính bản thân bạn.
+
+## Khi đặt câu hỏi
+
+Cùng với việc cố gắng tìm cách giải quyết vấn đề bằng chính bản thân, 
+chúng ta cũng có thể cùng nhau trao đổi, đặt câu hỏi để có được sự trợ giúp từ cộng đồng. 
+Dưới đây chúng tôi gợi ý cách thức để việc trao đổi giữa chúng ta diễn ra dễ dàng hơn.
+
+Khi đặt câu hỏi, chúng ta hãy lịch sự, nêu ngắn gọn, rõ ràng câu hỏi ở tiêu đề, 
+và cung cấp một cách chi tiết, đầy đủ các thông tin tối thiểu ở phần nội dung:
+
+- Câu hỏi bạn đang cần trả lời là gì, nếu là lỗi hãy nêu cụ thể lỗi, và dán chính xác lỗi bạn gặp vào nội dung câu hỏi.
+- Các bước để tái hiện lại lỗi, có thể chèn code vào câu hỏi nếu ngắn, và cung cấp dữ liệu mẫu nếu cần.
+- Các bước bạn đã thử để trả lời câu hỏi.
+- Output mà bạn mong muốn.
+- Output thực tế
+- Ngôn ngữ, phần mềm, hệ điều hành bạn đang sử dụng,...
+
+## Văn hoá diễn đàn
+
+[Hướng dẫn gửi bài diễn đàn Stackoverflow](https://stackoverflow.com/help) là một hướng dẫn hay có nhiều thực hành tốt chúng ta nên đọc.
+
+Một số điều cơ bản chúng ta **làm** khi tham gia diễn đàn Khoahocdulieu.org:
+
+- Hỏi câu hỏi ở đúng diễn đàn tương ứng.
+- Theo dõi bài đăng.
+- Cho mọi người biết khi câu hỏi bạn hỏi đã được giải quyết.
+- Lịch sự khi đặt câu hỏi lẫn khi trả lời câu hỏi.
+- "Lắng nghe": Khi đọc câu hỏi, câu trả lời của người khác, bạn hãy đọc một cách chăm chú, tập trung, giữ lại các suy nghĩ phán xét và phản ứng của mình để có thể hoàn toàn tiếp nhận thông tin.
+
+Một số điều cơ bản chúng ta **không làm** khi tham gia diễn đàn Khoahocdulieu.org:
+
+- Hỏi bài tập về nhà.
+- Đăng lại câu hỏi nếu bạn chưa nhận được câu trả lời.
+- Đăng câu hỏi trùng lặp trên nhiều diễn đàn.

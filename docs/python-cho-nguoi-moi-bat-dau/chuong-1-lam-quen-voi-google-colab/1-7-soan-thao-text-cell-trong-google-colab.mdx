@@ -1,0 +1,48 @@
+---
+title: 1.7. Soạn thảo text cell trong Google Colab
+sidebar_position: 8
+---
+
+Google Colab có hướng dẫn cách soạn thảo text cell ở liên kết: <a href="https://colab.research.google.com/notebooks/markdown_guide.ipynb" target="_blank" rel="nofollow noopener">https://colab.research.google.com/notebooks/markdown_guide.ipynb</a>
+
+Tôi bổ sung thêm một số ý:
+<ul>
+ 	<li>Tận dụng heading để phân chia nội dung notebook một cách hợp lý, vì khi sử dụng heading, phần Table of Contents (xem lại <a href="/khoa-hoc/python-cho-nguoi-moi-bat-dau/chuong-1-lam-quen-voi-google-colab/1-5-thiet-lap-google-colab#152-những-mục-cần-chú-ý"> mục 1.5.2 bài 1.5</a>) sẽ được cập nhật tự động, giúp dễ dàng theo dõi file notebook hơn.</li>
+ 	<li>Nên chia nhỏ nội dung ra các cell khác nhau, heading nên ở 1 cell riêng.</li>
+ 	<li>Nên chèn ảnh bằng file thay vì Ctrl+C và Ctrl + V ảnh trực tiếp vào text cell, nếu thực sự cần dán ảnh trực tiếp vào text cell bằng cách này, nên để riêng một cell cho ảnh. Có thể chèn ảnh bằng file sử dụng text cell bằng 1 trong 2 dòng lệnh sau:</li>
+
+```markdown
+![alt text](https://khoahocdulieu.org/wp-content/uploads/2021/12/logo_1.png)
+<img src="https://khoahocdulieu.org/wp-content/uploads/2021/12/logo_1.png" alt="alt text" style="height: 100px; width:100px;"/>
+```
+ 	<li>Ta cũng có thể chèn ảnh bằng code cell:</li>
+
+```html
+%%html
+<img src="https://khoahocdulieu.org/wp-content/uploads/2021/12/logo_1.png" alt="alt text" style="height: 100px; width:100px;"/>
+```
+
+ 	<li>Hoặc:</li>
+
+```python
+from IPython.display import Image 
+Image(url="https://khoahocdulieu.org/wp-content/uploads/2021/12/logo_1.png", width=100, height=100)
+```
+
+ 	<li>Đối với math mode Latex, ngoài sử dụng <code>$$</code>, 
+  còn có thể sử dụng <code>\\(\\)</code> có chức năng tương tự, 
+  ví dụ: <code>\\(a \times b\\)</code>, 
+  hoặc để xuống dòng dùng <code>\\[a \times b\\]</code>, 
+  tôi thường dùng <code>$$ $$</code>:</li>
+</ul>
+
+```latex
+\begin{gathered}
+L_{G}=\alpha L_{\text {per-pixel }}+\beta L_{G A N-G}+\gamma L_{\text {feature }}+\delta L_{\text {style }} \\
+L_{D}=L_{G A N-D}
+\end{gathered}
+```
+
+<div className="flex justify-center mt-15">
+<img alt="colab_latex" src="/img/python-cho-nguoi-moi-bat-dau/chuong-1/colab_latex.png"/>
+</div>
