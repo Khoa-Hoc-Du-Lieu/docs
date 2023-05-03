@@ -95,9 +95,9 @@ const isDev = process.env.NODE_ENV === 'development';
 const { webpackPlugin } = require('./plugins/webpack-plugin.cjs');
 const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
 const docs_plugins = docs.map((doc) => create_doc_plugin(doc));
-const search_plugins = require.resolve('docusaurus-lunr-search');
+// const search_plugins = require.resolve('docusaurus-lunr-search');
 
-const plugins = [tailwindPlugin, ...docs_plugins, search_plugins, webpackPlugin];
+const plugins = [tailwindPlugin, ...docs_plugins, webpackPlugin];
 
 
 const fs = require('fs');
@@ -210,10 +210,10 @@ const config = {
             to: 'https://github.com/Khoa-Hoc-Du-Lieu/docs/issues/new/?title=[Bug]',
           },
 
-          {
-            type: 'search',
-            position: 'right',
-          },
+          // {
+          //   type: 'search',
+          //   position: 'right',
+          // },
           {
             label: 'Cộng Đồng',
             position: 'right',

@@ -29,7 +29,6 @@
     "@radix-ui/react-select": "^0.1.1",
     "@stoplight/elements": "^7.7.7",
     "clsx": "^1.2.1",
-    "docusaurus-lunr-search": "^2.3.2",
     "docusaurus-plugin-sass": "^0.2.1",
     "ionicons": "^7.1.0",
     "param-case": "^3.0.4",
