@@ -169,7 +169,7 @@ export default function FAQPage() {
             <input
               type="text"
               className="-ml-5 h-10 flex-1 rounded-md border border-solid border-zinc-200 bg-white px-3 pl-8 text-sm text-zinc-700 dark:border-zinc-800 dark:bg-secondary-1000 dark:text-zinc-200"
-              placeholder="Gõ thắc mắc bạn cần trả lời...(sdk, api, write code)"
+              placeholder="Gõ thắc mắc bạn cần trả lời..."
               value={query}
               onInput={(e) => setQuery(e.currentTarget.value)}
             />
