@@ -207,7 +207,7 @@ const config = {
           },
           {
             label: 'Báo lỗi',
-            to: 'https://github.com/Khoa-Hoc-Du-Lieu/docs/issues/new/?title=[Bug]',
+            to: 'https://github.com/Khoa-Hoc-Du-Lieu/docs/issues/new/choose',
           },
 
           // {
