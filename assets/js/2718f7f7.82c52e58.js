@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkhoahocdulieu_docs=self.webpackChunkkhoahocdulieu_docs||[]).push([[6954],{7523:u=>{u.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"khoa-hoc-du-lieu-cho-nguoi-moi-bat-dau"}')}}]);

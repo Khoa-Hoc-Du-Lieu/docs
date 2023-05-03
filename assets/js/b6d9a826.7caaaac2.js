@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkhoahocdulieu_docs=self.webpackChunkkhoahocdulieu_docs||[]).push([[4747],{9277:o=>{o.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"khoa-hoc"}')}}]);
