@@ -62,7 +62,7 @@ const docs = [
 
 /** @type {import('@docusaurus/plugin-content-docs').Options} */
 const defaultSettings = {
-  breadcrumbs: false,
+  breadcrumbs: true,
   editUrl: 'https://github.com/Khoa-Hoc-Du-Lieu/docs/tree/main/',
   showLastUpdateTime: true,
   remarkPlugins: [
