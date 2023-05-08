@@ -25,8 +25,15 @@
 - question: Khoa học dữ liệu duy trì bằng cách nào?
   tags: ['General']
   answer: |-
-    Hiện tại Khoahocdulieu được duy trì bởi Founder [Nguyen-Khang](https://nguyenkhang.me)  
+    Nhờ sử dụng GitHub Pages nên chúng tôi chỉ cần duy trì tên miền.  
     Các nội dung có thể được cộng đồng đóng góp sử dụng GitHub, xem trang [CONTRIBUTING](https://github.com/Khoa-Hoc-Du-Lieu/docs/blob/main/CONTRIBUTING.md)
+
+- question: Làm sao để xoá bình luận?
+  tags: ['General']
+  answer: |-
+    1. Truy cập [mục comments trên trang diễn đàn GitHub](https://github.com/Khoa-Hoc-Du-Lieu/docs/discussions/categories/comments)  
+    2. Tìm đến bài mà tiêu đề là đường link đến trang bạn bình luận
+    3. Bạn có thể xoá bình luận của mình tại đây bằng cách nhấn vào biểu tượng `...` ở góc phải bình luận của bạn, chọn `Delete`
 
 - question: Tôi cần có khoá học/chức năng mới làm sao để đề xuất?
   tags: ['General']
