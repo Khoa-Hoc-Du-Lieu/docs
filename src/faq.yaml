@@ -25,7 +25,7 @@
 - question: Khoa học dữ liệu duy trì bằng cách nào?
   tags: ['General']
   answer: |-
-    Nhờ sử dụng GitHub Pages nên chúng tôi chỉ cần duy trì tên miền.  
+    Nhờ sử dụng Netlify nên chúng tôi chỉ cần duy trì tên miền.  
     Các nội dung có thể được cộng đồng đóng góp sử dụng GitHub, xem trang [CONTRIBUTING](https://github.com/Khoa-Hoc-Du-Lieu/docs/blob/main/CONTRIBUTING.md)
 
 - question: Làm sao để xoá bình luận?
@@ -89,6 +89,7 @@
     - Video được đăng trên [YouTube](https://www.youtube.com/@khoahocdulieu)
     - Đi sâu hơn nữa, các trang của khoahocdulieu.org được xây dựng trên 
     MDX, JSX, TypeScript, Tailwind CSS, Sass,... 
+    - Deploy với GitHub Actions, và được host trên Netlify.
 
     Để biết thêm thông tin, xem trang [GitHub](https://github.com/Khoa-Hoc-Du-Lieu/docs)
 
@@ -105,7 +106,7 @@
   tags: ['Technical']
   answer: |-
     Bạn có thể ghé qua các trang sau (bằng tiếng Anh):
-    - [datalearner.com](https://www.datalearner.com)
+    - [medium.com/@nguyenkhangme](https://medium.com/@nguyenkhangme)
     - [calmcode.io](https://calmcode.io/)
     - [normconf.com](https://normconf.com)
     - [boringml.com](https://boringml.com)
