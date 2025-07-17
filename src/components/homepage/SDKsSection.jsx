@@ -101,7 +101,7 @@ export default function SDKsSection() {
               <Pill section="Nền tảng" />
               <Pill section="Nhập môn" />
               <Pill section="Trung bình" />
-              <Pill section="Data Learner" />
+              <Pill section="AI/ML trong thực tiễn" />
             </div>
           </div>
         </div>
@@ -342,16 +342,17 @@ export default function SDKsSection() {
 
         <div
           className="sdk-section mb-16 flex flex-col rounded-3xl bg-secondary-900 lg:flex-row"
-          data-section="Data Learner"
-          id="Data Learner"
+          data-section="AI/ML trong thực tiễn"
+          id="AI/ML trong thực tiễn"
         >
           <div className="flex flex-1 flex-col justify-center p-6 text-center lg:pl-16 lg:text-left">
-            <h3 className="text-4xl font-semibold">Data Learner</h3>
+            <h3 className="text-4xl font-semibold">AI/ML trong thực tiễn</h3>
             <p className="text-sm leading-relaxed text-text-400 lg:max-w-sm">
-              Là trang liên kết với Khoahocdulieu.org, datalearner.org sử dụng ngôn ngữ Tiếng Anh, 
-              cung cấp các nội dung đơn giản, ngắn gọn, dễ học về các công cụ cho người học dữ liệu trong thực tiễn
+              medium.com/@nguyenkhangme
+              Là trang Medium của Founder Nguyên Khang, trang sử dụng ngôn ngữ Tiếng Anh,
+              tập trung chủ yếu vào triển khai AI/ML trong thực tiễn.
             </p>
-            <Link className="text-sm" href="https://www.datalearner.org">
+            <Link className="text-sm" href="https://medium.com/@nguyenkhangme">
               Ghé trang &rarr;
             </Link>
           </div>

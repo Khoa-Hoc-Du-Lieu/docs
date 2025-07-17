@@ -285,8 +285,8 @@ const config = {
                 to: 'blog',
               },
               {
-                label: 'Data learner',
-                href: 'https://www.datalearner.org/',
+                label: 'medium.com/@nguyenkhangme',
+                href: 'https://medium.com/@nguyenkhangme',
               },
             ],
           },
