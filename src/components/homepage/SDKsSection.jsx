@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import clsx from 'clsx';
-import ThemedImage from '@theme/ThemedImage';
 import {
   AngularIcon,
   // ElectronIcon,
@@ -101,7 +100,6 @@ export default function SDKsSection() {
               <Pill section="Nền tảng" />
               <Pill section="Nhập môn" />
               <Pill section="Trung bình" />
-              <Pill section="AI/ML trong thực tiễn" />
             </div>
           </div>
         </div>
@@ -338,34 +336,6 @@ export default function SDKsSection() {
               </li>
             </ul>
           </div> */}
-        </div>
-
-        <div
-          className="sdk-section mb-16 flex flex-col rounded-3xl bg-secondary-900 lg:flex-row"
-          data-section="AI/ML trong thực tiễn"
-          id="AI/ML trong thực tiễn"
-        >
-          <div className="flex flex-1 flex-col justify-center p-6 text-center lg:pl-16 lg:text-left">
-            <h3 className="text-4xl font-semibold">AI/ML trong thực tiễn</h3>
-            <p className="text-sm leading-relaxed text-text-400 lg:max-w-sm">
-              nguyenkhang.me
-              Là trang Blog của Founder Nguyên Khang, trang sử dụng ngôn ngữ Tiếng Anh,
-              tập trung chủ yếu vào triển khai AI/ML trong thực tiễn.
-            </p>
-            <Link className="text-sm" href="https://nguyenkhang.me">
-              Ghé trang &rarr;
-            </Link>
-          </div>
-          <div className="flex flex-[3] items-center justify-center rounded-3xl p-6 px-8 lg:justify-end">
-            <ThemedImage
-              sources={{
-                light: '/static/landing-page/plugin-sdk-light.png',
-                dark: '/static/landing-page/plugin-sdk-dark.png',
-              }}
-              alt="Plugin SDK Usage Preview"
-              loading="lazy"
-            />
-          </div>
         </div>
 
         {/* <div
