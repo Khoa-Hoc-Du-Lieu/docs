@@ -348,11 +348,11 @@ export default function SDKsSection() {
           <div className="flex flex-1 flex-col justify-center p-6 text-center lg:pl-16 lg:text-left">
             <h3 className="text-4xl font-semibold">AI/ML trong thực tiễn</h3>
             <p className="text-sm leading-relaxed text-text-400 lg:max-w-sm">
-              medium.com/@nguyenkhangme
-              Là trang Medium của Founder Nguyên Khang, trang sử dụng ngôn ngữ Tiếng Anh,
+              nguyenkhang.me
+              Là trang Blog của Founder Nguyên Khang, trang sử dụng ngôn ngữ Tiếng Anh,
               tập trung chủ yếu vào triển khai AI/ML trong thực tiễn.
             </p>
-            <Link className="text-sm" href="https://medium.com/@nguyenkhangme">
+            <Link className="text-sm" href="https://nguyenkhang.me">
               Ghé trang &rarr;
             </Link>
           </div>

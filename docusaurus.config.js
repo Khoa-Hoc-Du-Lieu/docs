@@ -284,10 +284,6 @@ const config = {
                 label: 'Blog',
                 to: 'blog',
               },
-              {
-                label: 'medium.com/@nguyenkhangme',
-                href: 'https://medium.com/@nguyenkhangme',
-              },
             ],
           },
           {
